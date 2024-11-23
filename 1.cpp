@@ -18,6 +18,8 @@ static void P (int *x) {
  int i = 0;
 *x = i++;
 }
+
+
  int main(){
 
      cout<<P[0]<<endl;
@@ -26,6 +28,7 @@ static void P (int *x) {
     Filterclass filter1(filtercient);
     double originspeed =50.0;
     double filterspeed =filter1.filter(originspeed);
+    cout<<"originspeed"<<originspeed<<"  "<<"filterspeed"<<filterspeed<<endl;
     cout<<"originspeed"<<originspeed<<"  "<<"filterspeed"<<filterspeed<<endl;
     return 10;
  }
