@@ -9,7 +9,7 @@ class Filterclass{
             return value;
         }
     private:
-        double alpha;
+        double alphb;
         double lastfiltervalue;
     
  };
