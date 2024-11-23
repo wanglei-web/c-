@@ -27,5 +27,5 @@ static void P (int *x) {
     double originspeed =50.0;
     double filterspeed =filter1.filter(originspeed);
     cout<<"originspeed"<<originspeed<<"  "<<"filterspeed"<<filterspeed<<endl;
-    return 1;
+    return 10;
  }
