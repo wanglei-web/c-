@@ -1,5 +1,5 @@
 
-using namespace std;
+using namespace;
 class Filterclass{
     public: 
         Filterclass(double filtercient) :alpha(filtercient),lastfiltervalue(0.0){}
