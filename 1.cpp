@@ -1,5 +1,5 @@
 
-using namespace;
+using namespace sstdd;
 class Filterclass{
     public: 
         Filterclass(double filtercient) :alpha(filtercient),lastfiltervalue(0.0){}
@@ -14,18 +14,3 @@ class Filterclass{
     
  };
 
-static void P (int *x) {
- int i = 0;
-*x = i++;
-}
- int main(){
-
-     cout<<P[0]<<endl;
-
-    double  filtercient=0.1;
-    Filterclass filter1(filtercient);
-    double originspeed =50.0;
-    double filterspeed =filter1.filter(originspeed);
-    cout<<"originspeed"<<originspeed<<"  "<<"filterspeed"<<filterspeed<<endl;
-    return 0;
- }
